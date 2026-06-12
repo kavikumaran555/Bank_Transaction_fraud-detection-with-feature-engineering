@@ -1,0 +1,4 @@
+Can we write python and SQl Commands in same Notebook in Databricks? - Yes.
+Why we are using Spark instead of pandas to read and store the table in dataframe? - Spark is good for large datasets and databricks is built on spark, makes it best option.
+What is printSchema()? - built in method used in spark to see the dataframe structure.
+why did we move the table from spark to pandas, df.toPandas() ? - Spark is good for loading big data, but pandas is easier for analysis + ML work.
