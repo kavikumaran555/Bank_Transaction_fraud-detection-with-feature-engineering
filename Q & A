@@ -2,3 +2,10 @@ Can we write python and SQl Commands in same Notebook in Databricks? - Yes.
 Why we are using Spark instead of pandas to read and store the table in dataframe? - Spark is good for large datasets and databricks is built on spark, makes it best option.
 What is printSchema()? - built in method used in spark to see the dataframe structure.
 why did we move the table from spark to pandas, df.toPandas() ? - Spark is good for loading big data, but pandas is easier for analysis + ML work.
+what is the use of get_dummies() ? - converts categorical values from columns into separate numerical columns (one hot encoding) for model.
+What is Random Forest Model? - Machine learning model with supervised learning, uses separate decision trees for each element and each tree gives prediction, based on majority vote, the final predicted result is shown.
+What is Test Train Split? It is splitting data into training part and testing part to train the model and see if the trained predictions are applied correctly and matching with testing part.
+What is Model Overfitting? Using all data to train the model will make the model to provide fake accuracy because it already knows the result.
+What is n_estimators in random forest model? It is the number of trees used in the model for decision making.
+why class_weight='balanced' is used? It is model balancer that informs the model to give importance to minority classification as well even though they are small numbers.
+why random_state=42 is used? model randomly predicts the result from different rows every time and result can change. so we are fixing the randomness and it will be followed everytime for same result.
